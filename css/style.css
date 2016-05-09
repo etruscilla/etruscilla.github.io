@@ -1,9 +1,9 @@
-body {
+		body {
 			padding:0;
 			margin:0;
 		}
 		main {
-			padding:70px 20px 20px;
+			padding:20px;
 		}
 		ul { font-size: 0; padding:0; margin:0;}
 		ul li {
@@ -29,21 +29,39 @@ body {
      		-moz-transition:text-shadow .3s ease-in;
      		-o-transition:text-shadow .3s ease-in;
 		}
-		header {
+		nav {
 			background:#bbb;
 			display:block;
-			position:fixed;
-			top:0;
-			left:0;
 			width:100%;
 			text-align:justify;
+			clear:left;
 		}
-		header::after {
+		nav::after {
 		    content: '';
 		    display: inline-block;
 		    width: 100%;
 		}
-		header ul {
+		nav ul {
 		    vertical-align: middle;
 		}
-		.down {background:#ddd;}
+		.logo {
+			float:left;
+			width:30%;
+			max-width: 200px;
+		}
+		.logo img {
+			width:100%;
+		}
+		form {
+			float:right;
+			padding:3%;
+			width:50%;
+		}
+		input[type="search"]{
+			width:60%;
+		}
+		.sticky {
+		  position: fixed;
+		  top: 0px;  /* если ноль заменить на число (и в скрипте тоже), то блок будет прилипать до того, как верхний край окна браузера дойдёт до верхнего края элемента. Может быть отрицательным числом. Применим, например, при фиксированном сверху меню */
+		  z-index: 101;
+		}
