@@ -1,0 +1,341 @@
+@font-face {
+    font-family:MyriadPro;
+    src:url(../fonts/MyriadPro.otf); 
+}
+@font-face {
+    font-family:OpenSans;
+    src:url(../fonts/OpenSans.ttf); 
+}
+@font-face {
+    font-family:ProximaNova;
+    src:url(../fonts/ProximaNova-Light.ttf); 
+}
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	font:12px "OpenSans";
+}
+.wrapper {
+	width:940px;
+	margin:0 auto;
+}
+body > header {
+	background:#fff;
+	padding-bottom:10px;
+}
+header img{
+	margin-left:-15px;
+}
+nav {
+	float:right;
+}
+li {
+	list-style-type:none;
+}
+nav ul li, .login, .learn-more-button, .col-follow ul li {
+	display:inline-block;
+}
+a {
+	text-decoration:none;
+}
+nav ul li a {
+	color:#000;
+	line-height:90px;
+	padding:35px 20px;
+	text-align:center;
+}
+nav ul li a:hover, .nav-active {
+	border-top:4px solid #ea0081;
+}
+.login {
+	padding:10px 35px;
+	color:#ec0c80;
+	font:12px "OpenSans";
+	border:4px solid #ec0c80;
+	border-radius:30px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+}
+section, aside, nav {
+	display:block;
+}
+.services {
+	background:url(../img/mail-bg.jpg) no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	overflow:hidden;
+}
+aside {
+	margin-right:50px;
+	float:left;
+}
+aside ul li {
+	position:relative;
+	width:150px;
+	background:rgba(60,60,60,.5);
+}
+aside ul li:after {
+	content:"";
+	width:90px;
+	height:2px;
+	background:rgba(200, 200, 200, .4);
+	position:absolute;
+	left:30px;
+}
+header, .login, .colored-text, nav ul li a, aside ul li a, .learn-more-button, .brain .ad, p.title {
+	text-transform:uppercase;
+} 
+aside ul li a, .learn-more-button, .services .wrapper article, .text, .grey-header, .brain .desc, .brain .ad, .roles article {
+	color:#fff;
+}
+aside ul li a, aside ul li a img, aside ul li a span, .services .wrapper article, .traffic .wrapper ul, .traffic .wrapper li a, .traffic img, .bottom , .phone-number img, footer {
+	display:block;
+}
+aside ul li a {
+	font:12px "OpenSans";
+	font-weight:light;
+	text-align:center;
+}
+aside ul li a img {
+	margin:0 auto;
+	padding-top:20px;
+	padding-bottom:5px;
+}
+aside ul li a span {
+	text-align:center;
+	padding-bottom:20px;
+}
+aside ul li a:hover, .active {
+	background:linear-gradient(to right, #ec0c80, #f04b38);
+	background:-moz-linear-gradient(to right, #ec0c80, #f04b38);
+	background:-webkit-linear-gradient(to right, #ec0c80, #f04b38);
+	background:-o-linear-gradient(to right, #ec0c80, #f04b38);
+	background:-ms-linear-gradient(to right, #ec0c80, #f04b38);
+}
+.services article header {
+	display:block;
+	padding:80px 0 40px;
+	font:40px "OpenSans"; 
+	font-weight:light;
+}
+.services .wrapper article {
+	width:500px;
+	text-align:left;
+	margin-left:200px;
+	font-size:18px;
+}
+.learn-more-button {
+	border:2px solid #fff;
+	font:18px "ProximaNova";
+	border-radius:40px;
+	-webkit-border-radius:40px;
+	-moz-border-radius:40px;
+	text-align:center;
+	width:200px;
+	padding:20px;
+	margin-top:70px;
+}
+.divider {
+	background:#f3705f;
+}
+.text {
+	font:30px "OpenSans";
+	font-weight:bold;
+	padding:30px 15px;
+}
+.traffic {
+	background:#231f20;
+	overflow:hidden;
+}
+.traffic .wrapper ul {
+	position:absolute;
+	top:365px;
+	left:-100px;
+}
+.traffic .wrapper li a {
+	width:10px;
+	height:10px;
+	background:#ec0b80;
+	margin-bottom:5px;
+}
+.traffic .wrapper li:last-child a {
+	background:#f04c37;
+}
+.grey-header {
+	background:#2e2a2b;
+	font:18px "OpenSans";
+	border-radius:30px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	padding:15px 20px;
+	display:block;
+}
+.colored-text {
+	font:40px "OpenSans";
+	border-radius:80px;
+	-webkit-border-radius:80px;
+	-moz-border-radius:80px;
+	color:#ec0b80;
+}
+.colored-text:last-child {
+    color:#f04c37;
+}
+.header {
+	margin:0 auto;
+	padding-top:80px;
+}
+.header div {
+	display:inline-block;
+	padding:30px 50px;
+	margin-bottom:40px;
+}
+.header div:first-child {
+	margin-right:60px;
+}
+.traffic img {
+	margin:0 auto;
+}
+.traffic .wrapper {
+	position:relative;
+}
+.traffic span {
+	position:absolute;
+}
+.tornado span:nth-child(2){
+	top:250px;
+	left:160px;
+}
+.tornado  span:nth-child(3){
+	top:420px;
+	left:200px;
+}
+.tornado  span:nth-child(4){
+	top:620px;
+	left:270px;
+}
+.tornado  span:nth-child(5){
+	top:260px;
+	right:130px;
+}
+.tornado  span:nth-child(6){
+	top:340px;
+	right:170px;
+}
+.tornado  span:nth-child(7){
+	top:430px;
+	right:170px;
+}
+.tornado  span:nth-child(8){
+	top:520px;
+	right:220px;
+}
+.tornado  span:nth-child(9){
+	top:620px;
+	right:250px;
+}
+.brain {
+	padding:60px 0 90px;
+}
+.brain .ad{
+	font:30px "MyriadPro";
+	width:370px;
+	float:left;
+}
+.brain .img-brain {
+	float:left;
+	width:180px;
+	margin:0 10px 80px 0;
+}
+.brain .desc {
+	float:right;
+	width:380px;
+}
+.roles {
+	background:url(../img/colored-bg.jpg) top center no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	height:420px;
+}
+.roles article {
+	padding-top:80px;
+	width:400px;
+	display:block;
+}
+.roles article p {
+	font:18px "OpenSans";
+	padding-top:40px;
+}
+.roles article header {
+	font-size:40px;
+}
+.roles article a {
+	width:120px;
+	padding:15px 20px;
+}
+.roles article:first-child {
+	text-align:left;
+	float:left;
+}
+.roles article:last-child {
+	text-align:right;
+	float:right;
+}
+article header {
+	background:transparent;
+}
+.roles .learn-more-button {
+	display:inline-block;
+	padding:15px;
+	margin-top:60px;
+}
+footer {
+	background:#fff;
+	height:420px;
+}
+p.title {
+	font-size:18px;
+	padding:75px 0 40px;
+}
+.col-company, .col-results, .col-follow {
+	height:295px;
+}
+.col-company, .col-results {
+	float:left;
+	width:390px;
+}
+.col-follow {
+	width:160px;
+	float:right;
+}
+.col-company ul li, .col-results ul li, .col-follow ul li {
+	padding-bottom:20px;
+}
+.col-company ul li a, .col-results ul li a, .col-follow ul li a, .phone-number {
+	color:#707070;
+}
+.col-follow ul li {
+	padding-right:8px;
+}
+.col-follow ul li:last-child {
+	padding-right:0;
+}
+.phone-number {
+	margin-top:60px;
+}
+.phone-number img {
+	float:left;
+}
+.phone-number p {
+	height:30px;
+	line-height:30px;
+	margin-left:30px;
+}
+.bottom {
+	margin-top:110px;
+}
