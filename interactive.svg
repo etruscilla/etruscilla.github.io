@@ -43,7 +43,7 @@
 			<text transform="matrix(1 0 0 1 565.5449 494.2139)" fill="#5B4F35" font-family="'LeagueGothic'" font-size="28.2251">9AM</text>
 		</g>
 		<g id="viva-badge">
-			<circle fill="#5B4F35" cx="311.581" cy="484.273" r="130.5"/>
+			<circle fill="#5B4F35" cx="311.581" cy="380.273" r="130.5"/>
 			<g id="coffee-title">
 				<text transform="matrix(1 0 0 1 284.416 403.2793)" fill="#FFFFFF" font-family="'LeagueGothic'" font-size="28.2251">COFFEE</text>
 			</g>
@@ -114,11 +114,11 @@
 	</g>
 
 	<g id="yr">
-		<rect x="505.545" y="860" fill="#6DBACC" width="17" height="283"/>
+		<rect x="505.545" y="657" fill="#6DBACC" width="17" height="283"/>
 		<polyline fill="#6DBACC" points="520.256,1010.415 532.566,1001.092 515.023,990.133 "/>
 		<text transform="matrix(1 0 0 1 407.2793 1007.6328)" fill="#6DBACC" font-family="'LeagueGothic'" font-size="28.2251">02.2016</text>
 		<g id="yr-badge">
-			<circle fill="#6DBACC" cx="717" cy="1000.5" r="130.5"/>
+			<circle fill="#6DBACC" cx="717" cy="780" r="130.5"/>
 			<g id="yr-title">
 				<text transform="matrix(1 0 0 1 680.0996 916.1816)" fill="#FFFFFF" font-family="'LeagueGothic'" font-size="24.3935">Yves Rocher</text>
 				<text transform="matrix(1 0 0 1 684.5508 940.2686)" fill="#FFFFFF" font-family="'LeagueGothic'" font-size="24.3935">ABOUT IE</text>
