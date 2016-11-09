@@ -329,7 +329,7 @@
 #stage a {
   color: #3a7ea2; }
 
-[id$=badge], [id$=title], [id$=details] {
+[id$=viva], [id$=yr], [id$=itmg] {
   -webkit-transition: -webkit-transform 0.25s ease-in-out;
   -moz-transition: -moz-transform 0.25s ease-in-out;
   -o-transition: -o-transform 0.25s ease-in-out;
@@ -370,185 +370,91 @@
   -o-transform: scale(1) translate(0px, 0px);
   transform: scale(1) translate(0px, 0px); }
 
-#coffee {
+#viva {
   -webkit-transform-origin: 517px 484px;
   -moz-transform-origin: 517px 484px;
   -ms-transform-origin: 517px 484px;
   -o-transform-origin: 517px 484px;
   transform-origin: 517px 484px; }
 
-#coffee-badge {
+#viva-badge {
   -webkit-transform-origin: 445px 488px;
   -moz-transform-origin: 445px 488px;
   -ms-transform-origin: 445px 488px;
   -o-transform-origin: 445px 488px;
   transform-origin: 445px 488px; }
 
-#coffee-title {
+#viva-title {
   -webkit-transform-origin: 310px 396px;
   -moz-transform-origin: 310px 396px;
   -ms-transform-origin: 310px 396px;
   -o-transform-origin: 310px 396px;
   transform-origin: 310px 396px; }
 
-#coffee-details {
+#viva-details {
   -webkit-transform-origin: 311px 489px;
   -moz-transform-origin: 311px 489px;
   -ms-transform-origin: 311px 489px;
   -o-transform-origin: 311px 489px;
   transform-origin: 311px 489px; }
 
-#design {
+#itmg {
   -webkit-transform-origin: 514px 603px;
   -moz-transform-origin: 514px 603px;
   -ms-transform-origin: 514px 603px;
   -o-transform-origin: 514px 603px;
   transform-origin: 514px 603px; }
 
-#design-badge {
+#itmg-badge {
   -webkit-transform-origin: 580px 606px;
   -moz-transform-origin: 580px 606px;
   -ms-transform-origin: 580px 606px;
   -o-transform-origin: 580px 606px;
   transform-origin: 580px 606px; }
 
-#design-title {
+#itmg-title {
   -webkit-transform-origin: 712px 513px;
   -moz-transform-origin: 712px 513px;
   -ms-transform-origin: 712px 513px;
   -o-transform-origin: 712px 513px;
   transform-origin: 712px 513px; }
 
-#design-details {
+#itmg-details {
   -webkit-transform-origin: 710px 620px;
   -moz-transform-origin: 710px 620px;
   -ms-transform-origin: 710px 620px;
   -o-transform-origin: 710px 620px;
   transform-origin: 710px 620px; }
 
-#build {
+#yr {
   -webkit-transform-origin: 511px 769px;
   -moz-transform-origin: 511px 769px;
   -ms-transform-origin: 511px 769px;
   -o-transform-origin: 511px 769px;
   transform-origin: 511px 769px; }
 
-#build-badge {
+#yr-badge {
   -webkit-transform-origin: 445px 775px;
   -moz-transform-origin: 445px 775px;
   -ms-transform-origin: 445px 775px;
   -o-transform-origin: 445px 775px;
   transform-origin: 445px 775px; }
 
-#build-title {
+#yr-title {
   -webkit-transform-origin: 312px 680px;
   -moz-transform-origin: 312px 680px;
   -ms-transform-origin: 312px 680px;
   -o-transform-origin: 312px 680px;
   transform-origin: 312px 680px; }
 
-#build-details {
+#yr-details {
   -webkit-transform-origin: 310px 790px;
   -moz-transform-origin: 310px 790px;
   -ms-transform-origin: 310px 790px;
   -o-transform-origin: 310px 790px;
   transform-origin: 310px 790px; }
 
-#complain {
-  -webkit-transform-origin: 512px 1002px;
-  -moz-transform-origin: 512px 1002px;
-  -ms-transform-origin: 512px 1002px;
-  -o-transform-origin: 512px 1002px;
-  transform-origin: 512px 1002px; }
 
-#complain-badge {
-  -webkit-transform-origin: 586px 1000px;
-  -moz-transform-origin: 586px 1000px;
-  -ms-transform-origin: 586px 1000px;
-  -o-transform-origin: 586px 1000px;
-  transform-origin: 586px 1000px; }
-
-#complain-title {
-  -webkit-transform-origin: 718px 921px;
-  -moz-transform-origin: 718px 921px;
-  -ms-transform-origin: 718px 921px;
-  -o-transform-origin: 718px 921px;
-  transform-origin: 718px 921px; }
-
-#complain-details {
-  -webkit-transform-origin: 717px 1021px;
-  -moz-transform-origin: 717px 1021px;
-  -ms-transform-origin: 717px 1021px;
-  -o-transform-origin: 717px 1021px;
-  transform-origin: 717px 1021px; }
-
-#beer {
-  -webkit-transform-origin: 513px 1199px;
-  -moz-transform-origin: 513px 1199px;
-  -ms-transform-origin: 513px 1199px;
-  -o-transform-origin: 513px 1199px;
-  transform-origin: 513px 1199px; }
-
-#beer-badge {
-  -webkit-transform-origin: 444px 1193px;
-  -moz-transform-origin: 444px 1193px;
-  -ms-transform-origin: 444px 1193px;
-  -o-transform-origin: 444px 1193px;
-  transform-origin: 444px 1193px; }
-
-#beer-title {
-  -webkit-transform-origin: 313px 1097px;
-  -moz-transform-origin: 313px 1097px;
-  -ms-transform-origin: 313px 1097px;
-  -o-transform-origin: 313px 1097px;
-  transform-origin: 313px 1097px; }
-
-#beer-details {
-  -webkit-transform-origin: 316px 1202px;
-  -moz-transform-origin: 316px 1202px;
-  -ms-transform-origin: 316px 1202px;
-  -o-transform-origin: 316px 1202px;
-  transform-origin: 316px 1202px; }
-
-.svgLoaded #logo {
-  -webkit-animation: fade-in 0.5s ease-in-out;
-  -moz-animation: fade-in 0.5s ease-in-out;
-  -ms-animation: fade-in 0.5s ease-in-out;
-  -o-animation: fade-in 0.5s ease-in-out;
-  animation: fade-in 0.5s ease-in-out; }
-.svgLoaded #quote-text {
-  -webkit-animation: fade-in 0.5s ease-in-out 0.75s;
-  -moz-animation: fade-in 0.5s ease-in-out 0.75s;
-  -ms-animation: fade-in 0.5s ease-in-out 0.75s;
-  -o-animation: fade-in 0.5s ease-in-out 0.75s;
-  animation: fade-in 0.5s ease-in-out 0.75s;
-  -webkit-animation-fill-mode: both;
-  -moz-animation-fill-mode: both;
-  -ms-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
-  animation-fill-mode: both; }
-.svgLoaded #quote-left-brace {
-  -webkit-animation: left-brace-intro 1s ease-in-out 0.25s;
-  -moz-animation: left-brace-intro 1s ease-in-out 0.25s;
-  -ms-animation: left-brace-intro 1s ease-in-out 0.25s;
-  -o-animation: left-brace-intro 1s ease-in-out 0.25s;
-  animation: left-brace-intro 1s ease-in-out 0.25s;
-  -webkit-animation-fill-mode: backwards;
-  -moz-animation-fill-mode: backwards;
-  -ms-animation-fill-mode: backwards;
-  -o-animation-fill-mode: backwards;
-  animation-fill-mode: backwards; }
-.svgLoaded #quote-right-brace {
-  -webkit-animation: right-brace-intro 1s ease-in-out 0.25s;
-  -moz-animation: right-brace-intro 1s ease-in-out 0.25s;
-  -ms-animation: right-brace-intro 1s ease-in-out 0.25s;
-  -o-animation: right-brace-intro 1s ease-in-out 0.25s;
-  animation: right-brace-intro 1s ease-in-out 0.25s;
-  -webkit-animation-fill-mode: backwards;
-  -moz-animation-fill-mode: backwards;
-  -ms-animation-fill-mode: backwards;
-  -o-animation-fill-mode: backwards;
-  animation-fill-mode: backwards; }
 .svgLoaded #background {
   -webkit-animation: grow-y 0.5s ease-in-out 1.25s;
   -moz-animation: grow-y 0.5s ease-in-out 1.25s;
@@ -588,7 +494,7 @@
   -ms-transform-origin: 563px 877px;
   -o-transform-origin: 563px 877px;
   transform-origin: 563px 877px; }
-.svgLoaded #coffee, .svgLoaded #design, .svgLoaded #build, .svgLoaded #complain, .svgLoaded #beer {
+.svgLoaded #viva, .svgLoaded #itmg, .svgLoaded #yr {
   -webkit-animation: grow 0.25s ease-in-out;
   -moz-animation: grow 0.25s ease-in-out;
   -ms-animation: grow 0.25s ease-in-out;
@@ -599,33 +505,21 @@
   -ms-animation-fill-mode: backwards;
   -o-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
-.svgLoaded #coffee {
+.svgLoaded #viva {
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
   -ms-animation-delay: 2s;
   -o-animation-delay: 2s;
   animation-delay: 2s; }
-.svgLoaded #design {
+.svgLoaded #itmg {
   -webkit-animation-delay: 2.25s;
   -moz-animation-delay: 2.25s;
   -ms-animation-delay: 2.25s;
   -o-animation-delay: 2.25s;
   animation-delay: 2.25s; }
-.svgLoaded #build {
+.svgLoaded #yr {
   -webkit-animation-delay: 2.5s;
   -moz-animation-delay: 2.5s;
   -ms-animation-delay: 2.5s;
   -o-animation-delay: 2.5s;
   animation-delay: 2.5s; }
-.svgLoaded #complain {
-  -webkit-animation-delay: 2.75s;
-  -moz-animation-delay: 2.75s;
-  -ms-animation-delay: 2.75s;
-  -o-animation-delay: 2.75s;
-  animation-delay: 2.75s; }
-.svgLoaded #beer {
-  -webkit-animation-delay: 3s;
-  -moz-animation-delay: 3s;
-  -ms-animation-delay: 3s;
-  -o-animation-delay: 3s;
-  animation-delay: 3s; }
