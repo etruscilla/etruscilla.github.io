@@ -2,38 +2,7 @@
 <!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="InteractiveSVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" width="1024px" height="1388px" viewBox="0 0 1024 1388" enable-background="new 0 0 1024 1388" xml:space="preserve">
-<g id="background">
-	<rect y="297.986" fill="#E8EFEF" width="1023.91" height="1090"/>
-	<g>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="950.369" y1="1252.486" x2="565.455" y2="1252.486"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="950.369" y1="1177.577" x2="565.455" y2="1177.577"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="950.369" y1="1102.668" x2="565.455" y2="1102.668"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="950.369" y1="1027.758" x2="565.455" y2="1027.758"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="950.369" y1="952.85" x2="565.455" y2="952.85"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="950.369" y1="877.94" x2="565.455" y2="877.94"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="950.369" y1="803.031" x2="565.455" y2="803.031"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="950.369" y1="728.123" x2="565.455" y2="728.122"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="950.369" y1="653.214" x2="565.455" y2="653.214"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="950.369" y1="578.305" x2="565.455" y2="578.305"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="950.369" y1="503.396" x2="565.455" y2="503.396"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="950.369" y1="428.486" x2="565.455" y2="428.486"/>
-	</g>
-	<g>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="458.454" y1="1252.486" x2="89.467" y2="1252.486"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="458.454" y1="1177.577" x2="89.467" y2="1177.577"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="458.454" y1="1102.668" x2="89.467" y2="1102.668"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="458.454" y1="1027.758" x2="89.467" y2="1027.758"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="458.454" y1="952.85" x2="89.467" y2="952.85"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="458.454" y1="877.94" x2="89.467" y2="877.94"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="458.454" y1="803.031" x2="89.467" y2="803.031"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="458.454" y1="728.122" x2="89.467" y2="728.122"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="458.454" y1="653.214" x2="89.467" y2="653.214"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="458.454" y1="578.305" x2="89.467" y2="578.305"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="458.454" y1="503.396" x2="89.467" y2="503.396"/>
-		<line fill="none" stroke="#CADBDD" stroke-miterlimit="10" x1="458.454" y1="428.486" x2="89.467" y2="428.486"/>
-	</g>
-</g>
+	 y="0px" width="1024px" height="1008px" viewBox="0 0 1024 1388" enable-background="new 0 0 1024 1388" xml:space="preserve">
 
 <g id="timeline">
 	<g id="viva">
@@ -65,7 +34,7 @@
 					<circle fill="#E5E2DF" cx="312.225" cy="475.104" r="14.071"/>
 				</g>
 				<rect x="219.11" y="530.174" fill="none" width="187" height="68"/>
-				<text transform="matrix(1 0 0 1 219.7134 543.4023)" fill="#CEB995" font-family="'LeagueGothic'" font-size="18">DESIGNERS DRINK AN AVERAGE OF 380 </text>
+				<text transform="matrix(1 0 0 1 219.7134 543.4023)" fill="#CEB995" font-family="'LeagueGothic'" font-size="18">Программист промышленных контроллеров </text>
 				<text transform="matrix(1 0 0 1 249.6372 565.0039)" fill="#CEB995" font-family="'LeagueGothic'" font-size="18">CUPS OF COFFEE PER YEAR</text>
 			</g>
 		</g>
@@ -81,7 +50,7 @@
 			</g>
 			<g id="itmg-details">
 				<rect x="616.468" y="650.4" fill="none" width="187" height="68"/>
-				<text transform="matrix(1 0 0 1 630.1738 663.6289)" fill="#E8AD67" font-family="'LeagueGothic'" font-size="18">WORLDWIDE, A NEW WEB PAGE IS </text>
+				<text transform="matrix(1 0 0 1 630.1738 663.6289)" fill="#E8AD67" font-family="'LeagueGothic'" font-size="18">CMS-manager </text>
 				<text transform="matrix(1 0 0 1 637.2568 685.2305)" fill="#E8AD67" font-family="'LeagueGothic'" font-size="18">DESIGNED EVERY 0.4 SECONDS</text>
 				<g>
 					<ellipse fill="#B24E2B" cx="702.667" cy="626.357" rx="28.333" ry="3.108"/>
@@ -122,7 +91,7 @@
 			</g>
 			<g id="yr-details">
 				<rect x="215.893" y="818.4" fill="none" width="187" height="68"/>
-				<text transform="matrix(1 0 0 1 226.1045 831.6289)" fill="#EBF4CE" font-family="'LeagueGothic'" font-size="18">64% OF WEB DESIGNERS CONSIDER</text>
+				<text transform="matrix(1 0 0 1 226.1045 831.6289)" fill="#EBF4CE" font-family="'LeagueGothic'" font-size="18">Web-master</text>
 				<text transform="matrix(1 0 0 1 244.9507 853.2305)" fill="#EBF4CE" font-family="'LeagueGothic'" font-size="18">THEMSELVES SELF-TAUGHT</text>
 				<g>
 					<g>
