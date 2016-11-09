@@ -14,7 +14,7 @@
 		<g id="viva-badge">
 			<circle fill="#5B4F35" cx="311.581" cy="484.273" r="130.5"/>
 			<g id="viva-title">
-				<text transform="matrix(1 0 0 1 154.416 233.2793)" fill="#FFFFFF" font-family="'LeagueGothic'" font-size="28.2251">VIVA</text>
+				<text transform="matrix(1 0 0 1 154.416 433.2793)" fill="#FFFFFF" font-family="'LeagueGothic'" font-size="28.2251">VIVA</text>
 			</g>
 			<g id="viva-details">
 				<g id="viva-icon">
@@ -34,8 +34,8 @@
 					<circle fill="#E5E2DF" cx="312.225" cy="475.104" r="14.071"/>
 				</g>
 				<rect x="219.11" y="530.174" fill="none" width="187" height="68"/>
-				<text transform="matrix(1 0 0 1 219.7134 543.4023)" fill="#CEB995" font-family="'LeagueGothic'" font-size="18">Программист промышленных контроллеров </text>
-				<text transform="matrix(1 0 0 1 249.6372 565.0039)" fill="#CEB995" font-family="'LeagueGothic'" font-size="18">CUPS OF COFFEE PER YEAR</text>
+				<text transform="matrix(1 0 0 1 219.7134 543.4023)" fill="#CEB995" font-family="'LeagueGothic'" font-size="18">CONTROLLER PROGRAMMER</text>
+				<text transform="matrix(1 0 0 1 249.6372 565.0039)" fill="#CEB995" font-family="'LeagueGothic'" font-size="18">ДОНЕЦК</text>
 			</g>
 		</g>
 	</g>
@@ -50,8 +50,8 @@
 			</g>
 			<g id="itmg-details">
 				<rect x="616.468" y="650.4" fill="none" width="187" height="68"/>
-				<text transform="matrix(1 0 0 1 630.1738 663.6289)" fill="#E8AD67" font-family="'LeagueGothic'" font-size="18">CMS-manager </text>
-				<text transform="matrix(1 0 0 1 637.2568 685.2305)" fill="#E8AD67" font-family="'LeagueGothic'" font-size="18">DESIGNED EVERY 0.4 SECONDS</text>
+				<text transform="matrix(1 0 0 1 630.1738 663.6289)" fill="#E8AD67" font-family="'LeagueGothic'" font-size="18">Позиция: CMS-MANAGER</text>
+				<text transform="matrix(1 0 0 1 637.2568 685.2305)" fill="#E8AD67" font-family="'LeagueGothic'" font-size="18">КИЕВ</text>
 				<g>
 					<ellipse fill="#B24E2B" cx="702.667" cy="626.357" rx="28.333" ry="3.108"/>
 					<path fill="#E8AD67" d="M747.848,571.088c-1.031-1.348-2.066-2.696-3.104-4.044c-0.12-0.09-0.126-0.073-0.021,0.049
@@ -91,7 +91,7 @@
 			</g>
 			<g id="yr-details">
 				<rect x="215.893" y="818.4" fill="none" width="187" height="68"/>
-				<text transform="matrix(1 0 0 1 226.1045 831.6289)" fill="#EBF4CE" font-family="'LeagueGothic'" font-size="18">Web-master</text>
+				<text transform="matrix(1 0 0 1 226.1045 831.6289)" fill="#EBF4CE" font-family="'LeagueGothic'" font-size="18">Позиция: WEB-MASTER</text>
 				<text transform="matrix(1 0 0 1 244.9507 853.2305)" fill="#EBF4CE" font-family="'LeagueGothic'" font-size="18">THEMSELVES SELF-TAUGHT</text>
 				<g>
 					<g>
