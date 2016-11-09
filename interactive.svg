@@ -6,15 +6,15 @@
 
 <g id="timeline">
 	<g id="viva">
-		<rect x="505.545" y="409" fill="#5B4F35" width="17" height="135"/>
-		<polyline fill="#5B4F35" points="509.334,472.132 497.023,481.456 514.566,492.415 		"/>
+		<rect x="505.545" y="401" fill="#5B4F35" width="17" height="135"/>
+		<polyline fill="#5B4F35" points="509.334,457.132 497.023,466.456 514.566,477.415 		"/>
 		<g>
 			<text transform="matrix(1 0 0 1 555.5449 474.2139)" fill="#5B4F35" font-family="'LeagueGothic'" font-size="28.2251">04.2012</text>
 		</g>
 		<g id="viva-badge">
 			<circle fill="#5B4F35" cx="311.581" cy="474.273" r="130.5"/>
 			<g id="viva-title">
-				<text transform="matrix(1 0 0 1 154.416 433.2793)" fill="#FFFFFF" font-family="'LeagueGothic'" font-size="28.2251">VIVA</text>
+				<text transform="matrix(1 0 0 1 294.416 398.2793)" fill="#FFFFFF" font-family="'LeagueGothic'" font-size="28.2251">VIVA</text>
 			</g>
 			<g id="viva-details">
 				<g id="viva-icon">
