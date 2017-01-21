@@ -1,3 +1,3 @@
 <?php
-mail("m-mikhailova@mail.ru", "Заявка с сайта", "message here","From: example2@mail.ru");
+mail("m-mikhailova@mail.ru", "Заявка с сайта", "message here","example2@mail.ru");
 ?>
