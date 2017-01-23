@@ -3,158 +3,358 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Mikhailova Marina's Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link href='https://fonts.googleapis.com/css?family=Arimo&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Marck+Script&subset=latin,cyrillic' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
-	<link rel="stylesheet" type="text/css" href="css/default.css" />
-	<link rel="stylesheet" type="text/css" href="css/interactive-svg.css" />
+	<link rel="stylesheet" href="css/timeline.css">
+ 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script src="js/modernizr.custom.js"></script>
 </head>
 <body>
 	<div class="wrapper">
-		<header>
-			<div class="header-wrapper">
-				<h1>Михайлова Марина</h1>
-				<h2>Junior Front-End Developer</h2>
-				<nav>
-					<ul>
-						<li><a href="#my-way">Мой подход</a></li>
-						<li><a href="#cv">Резюме</a></li>
-						<li><a href="#portfolio">Портфолио</a></li>
-						<li><a href="#contacts">Контакты</a></li>
-					</ul>	
-				</nav>	
-			</div>
-		</header>
-		
-		
-<!--		
-		<div class="container">	
+	   <div class="navbar z-depth-2">
+			<nav>
+			    <div class="nav-wrapper">
+			      <div class="nav-header">
+			      	<h1 class="nav-header-info nav-header-name">Михайлова Марина</h1>
+			      	<h2 class="nav-header-info nav-header-position">Front-end Developer</h2>
+			      </div>
 
-			<div class="main">
+			      <ul id="nav-mobile" class="center nav-list">
+			        <li><a href="#about">Обо мне</a></li>
+			        <li><a href="#cv">Резюме</a></li>
+			        <li><a href="#portfolio">Портфолио</a></li>
+			        <li><a href="#" id="sidebar-toggle" class="button-collapse" data-activates="slide-out">Контакты</a></li>
+				  </ul>
 
-				<div id="stage"></div>
+			      <ul id="slide-out" class="side-nav">
+			        	<li class="side-nav-big-li">
+			        		<div class="my-contact-photo">
+				   				<img src="img/main_img.jpg" class="circle responsive-img my-photo-contacts z-depth-1" alt="Моё фото" />
+								<p class="my-contact-info my-contact-name">Михайлова Марина</p>
+								<p class="my-contact-info my-contact-position">Front-End Developer</p>
+							</div>
+						</li>	
+						<li><div class="my-contact"><i class="material-icons md-20">phone_in_talk</i> 095-25-90-645 (Vodafone)</div></li>
+						<li><div class="my-contact"><i class="material-icons md-20">headset_mic</i> zelenglazaya (skype)</div></li>
+						<li><div class="my-contact"><i class="material-icons md-20">email_outline</i><a href="mailto:marina.mykhaylova@gmail.com" class="my-contact-link">marina.mykhaylova@gmail.com</a></div></li>
+						<li><div class="my-contact"><i class="fa fa-linkedin" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/marinamikhailova"  class="my-contact-link">https://www.linkedin.com/in/marinamikhailova</a></div></li>
+			      </ul> 
+			    </div>
+			</nav>
 
-			</div>
-		</div>
--->		
-		<div class="main-wrapper">
-			<article>
-				<section id="my-way">
-					<header>Мой подход к программированию и вёрстке</header>
-					<p>Я - джуниор фронт-энд разработчик. Что это значит в моём случае? Это значит, что я прошла месячные корпоративные курсы по фронт-энд разработке. На курсах я получила фундаментальные знания по HTML и CSS.
-					Мои результаты после прохождения курсов - навыки табличной и блочной вёрстки сайтов, базовое представление о библиотеках, фреймворках и API, чистый и оптимальный код HTML и CSS. 
-					После курсов я занялась самообучением.</p>
-					<p>На данный момент мой опыт коммерческой front-end разработки составляет 9 месяцев.</p>
-					<p class="rule">Кроссбраузерность</p>
-					<p>Я верстаю сайты так, чтобы они отображались одинаково во всех браузерах, в том числе и в устаревших. Для IE 9-  я применяю принцип Graceful Degradation.</p>
-					<p class="rule">Валидность</p>
-					<p>Код HTML-странички я обязательно проверяю на валидность.</p>
-					<p class="rule">Адаптивность (и "резина")</p>
-					<p>В зависимоти от технического задания я могу сделать адаптивным с помощью медиа-запросов или Bootstrap 3.</p>
-					<p>Также я могу самостоятельно написать responsive grid для резинового сайта.</p>
-					<p class="rule">Семантика</p>
-					<p>Если не требуется поддержка старых версий браузеров, я стараюсь использовать HTML5-элементы для семантической вёрстки сайтов, что позволяет сделать код понятным и логически структированным.</p>
-					<p class="rule">Динамичность</p>
-					<p>Я самостоятельно изучила JavaScript - язык, который позволяет добавить динамики сайту. У меня есть знания DOM, BOM, события мыши и клавиш. Могу также написать слайдер, калькулятор, поп-ап.</p>
-					<p class="rule">Оптимизация</p>
-					<p>Для увеличения производительности я использую препроцессор Less.</p>
-				</section>
-				<section id="cv">
-					<header>Резюме</header>
-					<p><span class="marked">Образование:</span> высшее техническое (ДонНТУ, факультет компьютерных информационных технологий и автоматики).</p>
-					<p><span class="marked">Навыки:</span> HTML/HTML5, CSS/CSS3 (спрайты, Graceful Degradation), JavaScript (BOM, DOM, события, поп-апы, слайдеры), Bootstrap 3, LESS.</p>
-					<p><span class="marked">Дополнительные знания:</span> базовые знания PHP+MySQL, регулярные выражения (regular expressions), знание принципов ООП, Photoshop.</p>
-					<p><span class="marked">Вёрстка:</span> семантическая, валидная, кроссбраузерная; адаптивная и резиновая вёрстка; табличная и блочная вёрстка, вёрстка с помощью сетки (Responsive grid).</p>
-					<p><span class="marked">Иностранные языки:</span> английский - выше среднего (сертификат от Yappi Corporation по курсу Business English), немецкий - базовый.</p>
-					<p><span class="marked">Профессиональные качества:</span> умение работать как в команде, так и самостоятельно, быстрая обучаемость, усидчивость, перфекционизм, внимание в деталям, умение разбираться в чужом коде, огромный интерес к веб-технологиям, уважительное отношение к дедлайну, самоорганизованность.</p>
-				</section>
-				<section id="portfolio">
-					<header>Портфолио</header>
-					<p>Немного о моём опыте разработки. Изначально мой опыт заключался в выполнении тестовых заданий от IT-компаний. Некоторые из этих страничек я включила в своё портфолио.<br>
-					На моём нынешнем месте работы (Yves Rocher Украина) я разрабатываю лэндинги, вношу правки в интернет-магазин (например, редизайн футера сайта), а также администрирую и поддерживаю его (сайт работает на корпоративной CMS BIRD). Также в мои обязанности входит вёрстка и отправка email-рассылок. Есть навыки работы с кодами отслеживания (в том числе, Google Analytics).<br> 
-					Я верю, что профессионально развиваться можно только на практике. Поэтому я обязательно буду пополнять своё портфолио новыми работами!</p>	
-					<div class="figure">
-						<a href="http://www.yves-rocher.ua/control/skindays/" target="_blank" title="Лэндинг Дни растительной экспертизы Yves Rocher"><img src="img/diagnostic_landing.jpg" alt="Лэндинг Дни растительной экспертизы Yves Rocher"></a>
-						<div class="caption">Лэндинг "Дни растительной экспертизы Yves Rocher"</div>
-					</div>
-					<div class="figure">
-						<a href="http://www.yves-rocher.ua/control/dynpage/~struct=boutique/~page=expert-diagnostic/" target="_blank" title="Онлайн-диагностика кожи"><img src="img/diagnostic.jpg" alt="Онлайн-диагностика кожи"></a>
-						<div class="caption">Онлайн-диагностика кожи (Yves Rocher)
-							<ul>
-								<li>JavaScript/jQuery</li>
-							</ul>	
+	    </div>
+
+	    <div id="about" class="section">
+	    	<div class="section-name">Обо мне</div>
+	    	<div class="row">
+	    		<div class="column col l4 m4 s10 push-l1 push-m1 push-s1">
+	    			<div class="my-info-title">Личная информация</div>	
+		    		<ul class="my-info-content">
+			    		<li><span class="my-info_underline">Имя</span>: Михайлова Марина Николаевна</li>
+			    		<li><span class="my-info_underline">Дата рождения</span>: 19 июня 1989 года</li>
+			    		<li><span class="my-info_underline">Место жительства</span>: г.Киев</li>
+			    		<li><span class="my-info_underline">Образование</span>: высшее техническое (магистр)</li>
+			    		<li><span class="my-info_underline">Опыт работы в сфере IT</span>: 2 года</li>
+			    		<li><span class="my-info_underline">Суммарный опыт работы</span>: 5 лет</li>
+			    	</ul>
+		    	</div>
+
+		    	<div class="column col l4 m4 s10 push-l3 push-m3 push-s1">
+		    		<div class="my-info-title">Основные услуги</div>
+		    		<ul class="my-info-content">
+			    		<li><i class="material-icons my-info-icon">navigate_next</i>Вёрстка сайта по готовому макету</li>
+			    		<li><i class="material-icons my-info-icon">navigate_next</i>Вёрстка сайта c помощью Bootstrap, Materialize или без использования фреймворков</li>
+			    		<li><i class="material-icons my-info-icon">navigate_next</i>Доработка функционала сайта (слайдер, кнопки соц.сетей, обратная связь и т.д.)</li>
+			    		<li><i class="material-icons my-info-icon">navigate_next</i>Добавление адаптивности сайту</li>
+			    	</ul>
+		    	</div>
+
+	    	</div>	
+	    </div>
+
+		<div id="cv" class="section">
+			<div class="section-name">Основные навыки</div>
+			<div class="main-skills">
+			    <div class="row">
+					<div class="col l6 m8 s10 push-l3 push-m2 push-s1 skill">
+						<div class="skill-name">HTML</div>
+				   		<div class="loading-container">
+							<div class="loading-progress level-html"></div>
 						</div>
 					</div>	
-					<div class="figure">
-						<a href="http://www.yves-rocher.ua/control/main" target="_blank" title="Редизайн футера Yves Rocher"><img src="img/footer.png" alt="Редизайн футера Yves Rocher"></a>
-						<div class="caption">Редизайн футера сайта Yves Rocher</div>
-					</div>
-				<!--	<div class="figure" style="border:none;"></div> -->
-					<div class="figure">
-						<a href="sites/freelancer/index.html" target="_blank" title="Freelancer"><img src="img/freelancer.png" alt="Freelancer"></a>
-						<div class="caption">Вёрстка свободного макета</div>
-					</div>
-					<div class="figure">
-						<a href="sites/promua/layout.html" target="_blank" title="Promua"><img src="img/promua.png" alt="Promua"></a>
-						<div class="caption">Вёрстка для Prom.ua
-							<ul>
-								<li>резиновая вёрстка</li>
-								<li>кроссбраузерность (IE 8+, FF 3.6+, Opera 11+, Chrome 16+)</li>
-								<li>graceful degradation для IE lte 9</li>
-								<li>применение спрайта</li>
-							</ul>	
+				</div>	
+
+				<div class="row">
+					<div class="col l6 m8 s10 push-l3 push-m2 push-s1 skill">
+						<div class="skill-name">CSS</div>
+				   		<div class="loading-container">
+							<div class="loading-progress level-css"></div>
+						</div>
+					</div>	
+				</div>	
+
+				<div class="row">
+					<div class="col l6 m8 s10 push-l3 push-m2 push-s1 skill">
+						<div class="skill-name">JavaScript</div>
+				   		<div class="loading-container">
+							<div class="loading-progress level-js"></div>
 						</div>
 					</div>
+				</div>	
+
+				<div class="row">
+					<div class="col l6 m8 s10 push-l3 push-m2 push-s1 skill">
+						<div class="skill-name">JQuery</div>
+				   		<div class="loading-container">
+							<div class="loading-progress level-jquery"></div>
+						</div>
+					</div>
+				</div>
 					
-				<!--	<div class="figure">
-						<a href="sites/fruit/index.html" target="_blank" title="Fruit"><img src="img/fruit.png" alt="Fruit"></a>
-						<div class="caption">Вёрстка для компании Фрукт
-							<ul>
-								<li>адаптивная вёрстка (Bootstrap 3)</li>
-								<li>шрифты Google fonts</li>
-							</ul>	
-						</div>
-					</div>-->
-					<div class="figure">
-						<a href="sites/bigdig/index.html" target="_blank" title="BigDig"><img src="img/bigdig.png" alt="BigDig"></a>
-						<div class="caption">Вёрстка для BigDig
-							<ul>
-								<li>семантическая вёрстка</li>
-								<li>кроссбраузерность</li>
-							</ul>	
+				<div class="row">
+					<div class="col l6 m8 s10 push-l3 push-m2 push-s1 skill">
+						<div class="skill-name">Bootstrap</div>
+				   		<div class="loading-container">
+							<div class="loading-progress level-bootstrap"></div>
 						</div>
 					</div>
-				<!--	<div class="figure">
-						<a href="sites/aweb/index.html" target="_blank" title="Aweb"><img src="img/aweb.png" alt="Aweb"></a>
-						<div class="caption">Вёрстка для компании Aweb
-							<ul>
-								<li>адаптивная вёрстка (Bootstrap 3)</li>
-								<li>семантическая вёрстка</li>
-								<li>кроссбраузерность</li>
-								<li>блок Yandex "Поделиться"</li>
-							</ul>	
+				</div>	
+			
+				<div class="row">
+					<div class="col l6 m8 s10 push-l3 push-m2 push-s1 skill">
+						<div class="skill-name">English</div>
+				   		<div class="loading-container">
+							<div class="loading-progress level-english"></div>
 						</div>
-					</div>-->
+					</div>
+				</div>	
+			</div>
+			
+			<div class="sub-section-name">А также...</div>
+				<div class="row">
+					<div class="col l6 m8 s10 push-l3 push-m2 push-s1 additional-skills">
+						<div class="add-skill">БЭМ</div>
+						<div class="add-skill">Materialize</div>
+						<div class="add-skill">React</div>
+						<div class="add-skill">LESS</div>
+						<div class="add-skill">Photoshop</div>
+						<div class="add-skill">RegExp</div>
+						<div class="add-skill">PHP+MySQL</div>
+					</div>	
+				</div>	   		
+			</div>
+
+	   	<div class="section row">
+			<div class="experience" id="experience">
+				<div class="section-name">Опыт работы</div>
+				<section id="cd-timeline">
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-university">
+							<i class="fa fa-university fa-3x" aria-hidden="true"></i>
+						</div>
+				 
+						<div class="cd-timeline-content">
+							<h2>Специалист по системам управления и автоматике (магистр)</h2>
+							<p>Учебное заведение: Донецкий Национальный технический университет.<br />
+							Факультет Компьютерных Информационных Технологий и Автоматики.<br />
+							Параллельно обучалась на Немецком Техническом Факультете.
+							</p>
+							<span class="cd-date">Сентябрь 2006 - Январь 2012</span>
+						</div>
+					</div>
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-code">
+							<i class="fa fa-code fa-3x" aria-hidden="true"></i>
+						</div>
+				 
+						<div class="cd-timeline-content">
+							<h2>Программист логических контроллеров (ВИВА-ЛТД)</h2>
+							<p>Обязанности:<br /> программирование контроллеров WAGO, Unitronics, ОВЕН, разработка визулизации для панелей управления, составление инструкций для оператора</p>
+							<span class="cd-date">Апрель 2012 - Август 2014</span>
+						</div>
+					</div>
+				 
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-content">
+							<i class="fa fa-keyboard-o fa-3x" aria-hidden="true"></i>
+						</div>
+				 
+						<div class="cd-timeline-content">
+							<h2>CMS-менеджер (ITMG)</h2>
+							<p>Обязанности:<br /> парсинг вакансий с помощью внутренней CMS-системы (на основе регулярных выражений)</p>
+							<span class="cd-date">Сентябрь 2014 - Ноябрь 2015</span>
+						</div>
+					</div>
+
+					<div class="cd-timeline-block">
+						<div class="cd-timeline-img cd-shop">
+							<i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+						</div>
+				 
+						<div class="cd-timeline-content">
+							<h2>Web-мастер (Yves Rocher)</h2>
+							<p>Обязанности:<br /> администрирование интернет-магазина <a href="www.yves-rocher.ua" target="_blank">www.yves-rocher.ua</a>, доработка функционала магазина, разработка промо-страниц (лэндингов), вёрстка email-рассылок.</p>
+							<span class="cd-date">с Февраля 2016</span>
+						</div>
+					</div>
 				</section>
-			</article>	
+			</div>
 		</div>	
+
 		
-		<div class="footer-wrapper">
-			<footer id="contacts">
-				<p class="f-header">Связаться со мной:</p>
-				<p>Тел.: 095-25-90-645 (МТС)</p>
-				<p>Skype: zelenglazaya</p>
-				<p>Email: <a href="mailto:marina.mykhaylova@gmail.com">marina.mykhaylova@gmail.com</a></p>
-				<p>LinkedIn: <a href="https://www.linkedin.com/in/marinamikhailova">https://www.linkedin.com/in/marinamikhailova</a></p>
-			</footer>
+		<div class="row section" id="portfolio">
+			<div class="section-name">Портфолио</div>
+			<div class="col l4 m4 s6">
+					<div class="card">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<img class="activator" src="img/diagnostic_landing_sm.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<span class="card-title activator grey-text text-darken-4 title-my-style">Лэндинг для Yves Rocher<i class="material-icons right">more_vert</i></span>
+					    	<p><a href="http://www.yves-rocher.ua/control/dynpage/~struct=article/~page=ExpertSkinDiagnostic/" target="_blank">Просмотреть страничку</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<span class="card-title grey-text text-darken-4 title-my-style">Лэндинг "Уход за кожей лица"<i class="material-icons right">close</i></span>
+					    	<p>Одностраничный лэндинг для Yves Rocher.<br /><br />Блок с продуктами по уходу за кожей реализован с помощью Javascript.<br /><br />Блок с информацией по гаммам реализован с помощью CSS-спрайтов.</p>
+					    </div>
+					</div>
+				</div>
+
+				<div class="col l4 m4 s6">
+					<div class="card">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<img class="activator" src="img/diagnostic_sm.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<span class="card-title activator grey-text text-darken-4 title-my-style">Диагностика кожи Yves Rocher<i class="material-icons right">more_vert</i></span>
+					    	<p><a href="http://www.yves-rocher.ua/control/dynpage/~struct=boutique/~page=expert-diagnostic/" target="_blank">Просмотреть страничку</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<span class="card-title grey-text text-darken-4 title-my-style">Онлайн-Диагностика кожи Yves Rocher<i class="material-icons right">close</i></span>
+					    	<p>Онлайн-Диагностика кожи разработана совместно со специалистами Yves Rocher для определения необходимого набора средств по уходу за кожей лица.<br /><br />Диагностика кожи реализована с помощью Javascript и jQuery.<br /><br />Анимация переходов между вопросами реализована с помощью библиотеки TweenMax.</p>
+					    </div>
+					</div>
+				</div>
+
+				<div class="col l4 m4 s6">
+					<div class="card">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<img class="activator" src="img/serum-kits_sm.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<span class="card-title activator grey-text text-darken-4 title-my-style">Лэндинг для промо Serum Vegetal<i class="material-icons right">more_vert</i></span>
+					    	<p><a href="http://www.yves-rocher.ua/control/dynpage/~struct=boutique/~page=serum-vegetal/" target="_blank">Просмотреть страничку</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<span class="card-title grey-text text-darken-4 title-my-style">Лэндинг для промо-кампании Serum Vegetal Yves Rocher<i class="material-icons right">close</i></span>
+					    	<p>Одностраничный лэндинг для Yves Rocher.<br /><br />"Карусель" реализована с помощью библиотеки TweenMax.</p>
+					    </div>
+					</div>
+				</div>
 		</div>
-	</div>	
+
+
+		<div class="row">
+				<div class="col l4 m4 s6">
+					<div class="card">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<img class="activator" src="img/freelancer_sm.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<span class="card-title activator grey-text text-darken-4 title-my-style">Вёрстка бесплатного шаблона<i class="material-icons right">more_vert</i></span>
+					    	<p><a href="sites/freelancer/index.html" target="_blank">Просмотреть страничку</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<span class="card-title grey-text text-darken-4 title-my-style">Вёрстка бесплатного шаблона<i class="material-icons right">close</i></span>
+					    	<p></p>
+					    </div>
+					</div>
+				</div>
+
+				<div class="col l4 m4 s6">
+					<div class="card">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<img class="activator" src="img/bigdig_sm.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<span class="card-title activator grey-text text-darken-4 title-my-style">Вёрстка шаблона от BigDig<i class="material-icons right"></i></span>
+					    	<p><a href="sites/bigdig/index.html" target="_blank">Просмотреть страничку</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<span class="card-title grey-text text-darken-4 title-my-style">Вёрстка шаблона от BigDig<i class="material-icons right">close</i></span>
+					    	<p>Тестовое задание от компании BigDig.<br /><br />"Резиновая" вёрстка</p>
+					    </div>
+					</div>
+				</div>
+
+				<div class="col l4 m4 s6">
+					<div class="card">
+					    <div class="card-image waves-effect waves-block waves-light">
+					    	<img class="activator" src="img/deweb_sm.jpg">
+					    </div>
+					    <div class="card-content">
+					    	<span class="card-title activator grey-text text-darken-4 title-my-style">Вёрстка шаблона от DeWeb<i class="material-icons right">more_vert</i></span>
+					    	<p><a href="sites/deweb/index.html" target="_blank">Просмотреть страничку</a></p>
+					    </div>
+					    <div class="card-reveal">
+					    	<span class="card-title grey-text text-darken-4 title-my-style">Тестовое задание от DeWeb<i class="material-icons right">close</i></span>
+					    	<p></p>
+					    </div>
+					</div>
+				</div>
+		</div>
+
+		<div class="footer">
+			<div class="footer-contacts row">
+				<div class="footer-contacts-title">Свяжитесь со мной</div>
+				<form method="POST" action="" class="col l6 m6 s12 push-l3 push-m3">
+					<div class="row footer-form-item">
+						<div class="input-field col l12 m12 s12">
+							<input type="text" name="name" class="validate">
+							<label for="name">Ваше имя*</label>
+						</div>
+					</div>	
+					<div class="row footer-form-item">
+						<div class="input-field col l12 m12 s12">
+							<input type="email" name="email" class="validate">
+							<label for="email">Ваш email*</label>
+						</div>
+					</div>
+					<div class="row footer-form-item">
+				        <div class="input-field col l12 m12 s12">
+				        	<textarea id="textarea" class="materialize-textarea"></textarea>
+				        	<label for="textarea">Ваше сообщение*</label>
+				        </div>
+				    </div>
+					<div class="form-note">* - поля, обязательные для заполнения</div><br />
+					<div class="row footer-form-item">
+						<button class="btn waves-effect waves-light orange darken-4 col push-l5 push-m5" type="submit" name="send">Отправить
+						    <i class="material-icons right">send</i>
+						</button>
+					</div>	
+					
+				</form>				
+			</div>
+		</div>
 	
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	</div>	
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-	<script src="https://use.fontawesome.com/84b9e98493.js"></script>
-	<script src="js/interactive-svg.js"></script>
+	<script src="https://use.fontawesome.com/84b9e98493.js"></script> 
+	<script src="js/modernizr.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/scroll.js"></script>
+
+	<script>
+		$('.button-collapse').sideNav({
+	      	menuWidth: 300,
+	      	edge: 'left',
+	      	closeOnClick: true,
+	      	draggable: true
+	    	}
+  		);
+	</script>
 </body>
 </html>
