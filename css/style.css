@@ -26,13 +26,6 @@ body {
   color: #7f8c97;
   background-color: #e9f0f5;
 }
-/*body {
-	font:1.2em Arimo;
-	font-weight:400px;
-	line-height:1.4em;
-	word-wrap:break-word;
-	height:100%;
-}*/
 .wrapper {
     height:100%;
     width:100%;
@@ -229,17 +222,17 @@ a {
 	margin:10px 15px 10px 0;
 	padding:10px 15px;
 	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
 	text-align:center; 
 }
 .loading-container {
 	background-color:transparent;
 	height:14px;
-	border-color:rgb(255,134,12);
-	border-width:2px;
+	border:2px solid rgb(255,134,12);
 	-moz-border-radius:8px;
 	-webkit-border-radius:8px;
 	border-radius:8px;
-	border-style:solid;
 }
 .loading-progress {
 	background-color:rgb(255,134,12);
