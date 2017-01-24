@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="css/timeline.css">
  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script src="js/modernizr.custom.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="ajax.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -305,7 +307,7 @@
 		<div class="footer">
 			<div class="footer-contacts row">
 				<div class="footer-contacts-title">Свяжитесь со мной</div>
-				<form method="POST" action="" class="col l6 m6 s12 push-l3 push-m3">
+				<form method="POST" action="" class="col l6 m6 s12 push-l3 push-m3" id="message">
 					<div class="row footer-form-item">
 						<div class="input-field col l12 m12 s12">
 							<input type="text" name="name" class="validate">
@@ -326,18 +328,18 @@
 				    </div>
 					<div class="form-note">* - поля, обязательные для заполнения</div><br />
 					<div class="row footer-form-item">
-						<button class="btn waves-effect waves-light orange darken-4 col push-l5 push-m5" type="submit" name="send">Отправить
-						    <i class="material-icons right">send</i>
+						<button id="send" class="btn waves-effect waves-light orange darken-4 col push-l5 push-m5" type="submit" name="send">Отправить <i class="material-icons right">send</i>
 						</button>
 					</div>	
 					
-				</form>				
+				</form>		
+				<br />
+				<div id="result_form"><div>		
 			</div>
 		</div>
 	
 	</div>	
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 	<script src="https://use.fontawesome.com/84b9e98493.js"></script> 
 	<script src="js/modernizr.js"></script>
