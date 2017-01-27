@@ -322,8 +322,8 @@
 					</div>
 					<div class="row footer-form-item">
 				        <div class="input-field col l12 m12 s12">
-				        	<textarea id="textarea" class="materialize-textarea" name="message" id="message"></textarea>
-				        	<label for="textarea">Ваше сообщение*</label>
+				        	<textarea class="materialize-textarea" name="message" id="message"></textarea>
+				        	<label for="message">Ваше сообщение*</label>
 				        </div>
 				    </div>
 					<div class="form-note">* - поля, обязательные для заполнения</div><br />
@@ -354,7 +354,7 @@
 	    	}
   		);
 
-		$(document).on('submit', function() {
+	$('input[name="send"]').on("click",function(){
             var name = $('#footer-form #name').val();
             var email = $('#footer-form #email').val();
             var message = $('#footer-form #message').val();
