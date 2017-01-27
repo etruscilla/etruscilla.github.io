@@ -359,14 +359,15 @@
             var email = $('#footer-form #email').val();
             var message = $('#footer-form #message').val();
 		alert(message);
-          /*  $.ajax({
+            $.ajax({
                 type: 'POST',
                 cache: false,
                 //url: 'http://gotham-framework.hol.es/res.php',
                 url: 'http://druzi.nakiteldesign.com/mail/res.php',
                 data: {"name":name, "email":email, "message":message},
                 success: function (resp) {
-                    if (resp.type == 'error') { //load json data from server and output message
+			alert("Ваше сообщение успешно отправлено!");
+               /*     if (resp.type == 'error') { //load json data from server and output message
                         console.log('ОШИБКА');
                         console.log(resp);
 			alert("При отправке сообщение произошла ошибка");
@@ -376,7 +377,7 @@
                         console.log(resp);
                         alert("Ваше сообщение успешно отправлено!");
 			form.reset();
-                    }
+                    }*/
                 }
             });*/
         });
